@@ -1,0 +1,161 @@
+/* footer */	
+	#footer {
+		text-align: center;
+	}
+	.footer_text {
+		font-family: "맑은 고딕";
+		font-size: 12px;
+		color: #969696;
+	}
+
+	input::placeholder {
+	  	color: rgb(69, 114, 196);
+	  	font-size:15px;
+	}
+	
+	#etc1{
+		position: relative;
+		float: left;
+		font-size: 24px;
+		color: #AFA8A8;
+	}
+	#etc2{
+		position: relative;
+		float: left;
+		font-size: 48px;
+	}
+	
+	/*세션*/
+	section{
+		box-sizing: border-box;
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 1920px;
+		padding-right: 145px;
+		padding-left: 145px;
+		text-align: left;
+	}
+	
+	/*푸터*/
+	footer{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 28px;
+		text-align: center;
+		color: gray;
+	}
+	
+	/*회원 기본 정보 테이블*/
+	#ta1{
+		border-collapse: collapse;
+		font-size:24px;
+		height: 82px;
+	}
+	#ta1 td{
+		border: 1px solid black;
+	}
+	
+	/* 테이블 전체*/
+	.infotable{
+		border-collapse: collapse;
+ 		border-top: 1px solid black;
+		font-size:24px;
+/* 		margin-right: auto; */
+/* 		margin-left: auto; */
+	}
+	
+	.infotable th{
+		background: #DEDEDE;
+	}
+	.infotable td{
+ 		border-top: 1px solid #E1E1E1;
+ 		border-bottom: 1px solid #E1E1E1;
+	}
+	
+	.l{
+		text-align: right;
+		width: 220px;
+	}
+	.infoth{
+		background: #DEDEDE;
+		width:1634px;
+		height: 45px;
+	}
+	.s{
+		width: 104px;
+	}
+	/*발정보 입력 테이블관련*/
+	#fbtn{
+		width: 254px;
+		height: 45px;
+		background: black;
+		color: white;
+		font-size:20px;
+		font-weight:bold;
+	}
+	#fbtn:hover{color:#4572C4; cursor:pointer;}
+	#bfeet{
+		width: 56px;
+		height: 48px;
+	}
+	#ffeet{
+		width: 99px;
+		height: 98px;
+	}
+	#ofeet{
+		width: 80px;
+		height: 92px;
+	}
+	#kfeet{
+		width: 67px;
+		height: 91px;
+	}
+	.c{
+		text-align: center;
+	}
+	/*회원 수정 테이블관련*/
+	.input{
+		width: 430px;
+		height: 30px;
+	}
+	#signout{
+		width: 100px;
+		height: 35px;
+		background: white;
+		color: red;
+		font-size:20px;
+		font-weight:bold;
+	}
+	#signout:hover{
+		cursor:pointer;
+		background:red;
+		color:white;
+	}
+	
+	#updateBtn{
+		width: 130px;
+		height: 42px;
+		background: black; 
+		color: white;
+		font-size:20px;
+		font-weight:bold;
+	}
+	#updateBtn:hover{
+		color:#4572C4; 
+		cursor:pointer;
+	}
+	
+	#cancel{
+		width: 130px;
+		height: 42px;
+		background: white;
+		font-size:20px;
+		font-weight:bold;
+	}
+	#cancel:hover{
+		color:#4572C4; 
+		cursor:pointer;
+	}

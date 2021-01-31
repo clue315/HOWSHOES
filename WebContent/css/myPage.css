@@ -1,0 +1,272 @@
+ #userUpadteBtn{  background:black; color:white; padding: 10px; font-weight: bold; font-size: 15px;  }
+	#userUpadteBtn:hover{color:#4572C4;}
+  /* footer */	
+  session{height:auto; margin-bottom:100px;}
+	#footer {
+		text-align: center;
+	}
+	.footer_text {
+		font-family: "맑은 고딕";
+		font-size: 12px;
+		color: #969696;
+	}
+
+/* ================ 상단 메뉴바 ================== */
+\\
+	#userName{color:black; width:auto; text-align: center; font-weight: bold; 
+		vertical-align: middle;  height: 50px; display: table-cell;}
+		
+		
+		
+ 
+   
+/* ================= 메인 메뉴바 =====================  */	
+	
+    .longLink { /* 좀 더 긴 메뉴 스타일 설정 */
+		left:0px; 
+		bottom:0px; 
+		height:70px; 
+		width:100%;
+	}   
+	
+	#notice_1{
+	    width: 1000px; 
+	    height: 30px; 
+	    border: 2px solid black; 
+	    color: black; 
+	    margin: 30px;
+	    padding: 10px; 
+	    font-family: 'Do Hyeon', sans-serif;
+	    font-size: 23px;
+	}
+	
+	#notice_2{
+	    width: 790px; 
+	    height: 20px; 
+	    border: 1px solid black; 
+	    color: black; 
+	    margin-left: 565px;
+	    margin-top: -15px;
+	    padding: 10px; 
+	    font-size: 13px;
+	    background: rgb(241, 240, 239);
+	}
+	
+	#cAll{ /* 전체보기 버튼 */
+		/* margin-top:  -2000px; */
+	    margin-left: 1300px;
+	}
+	
+/*===================== 장바구니 ================== */	
+	#cart{ /* 장바구니 글자 */
+		font-style: bold;
+	    font-size: 25px;
+	    margin-top: 20px;
+	    margin-left: 565px;
+	}
+	
+	#line_1{ 
+		width: 810px;
+		margin-top: -40px;
+		margin-left: 565px;
+	}
+	
+    #cShoes_1{ /* 신발사진1  */
+		text-align: center;
+		color: white;
+	    width: 125px; 
+	    height: 125px; 
+	    margin-left: 565px;
+	    margin-top: 10px;
+	    background: rgb(182, 178, 179);
+	} 
+    
+    #cCom_1{ /* 신발정보1 */
+        margin-left: 565px;
+	    margin-top: 20px;
+    }
+    
+    #cShoes_2{
+		text-align: center;
+		color: white;
+	    width: 125px; 
+	    height: 125px; 
+	    margin-left: 730px;
+	    margin-top: -205px;
+	    background: rgb(182, 178, 179);
+	} 
+	
+    #cCom_2{
+        margin-left: 730px;
+	    margin-top: 20px;
+    }
+    
+/* =================== 구매내역 ==================== */
+	#purchase{ /* 구매내역 글자  */
+		font-style: bold;
+	    font-size: 25px;
+	    margin-top: 30px;
+	    margin-left: 565px;
+	}
+	
+	#pAll{ /* 전체보기 버튼 */
+		margin-top: -2200px;
+	    margin-left: 1300px;
+	}
+	
+	#line_2{ 
+		width: 810px;
+		margin-top: -40px;
+		margin-left: 565px;
+	}
+	 
+    #pShoes_1{ /* 신발사진1 */
+		text-align: center;
+		color: white;
+	    width: 125px; 
+	    height: 125px;
+	    margin-left: 565px;
+	    margin-top: 12px;
+	    background: rgb(182, 178, 179);
+	} 
+    
+    #pCom_1{ /* 신발정보1 */
+        margin-left: 565px;
+	    margin-top: 20px;
+    }
+    
+    #pShoes_2{
+		text-align: center;
+		color: white;
+	    width: 125px; 
+	    height: 125px; 
+	    margin-left: 730px;
+	    margin-top: -203px;
+	    background: rgb(182, 178, 179);
+	} 
+	
+    #pCom_2{
+        margin-left: 730px;
+	    margin-top: 20px;
+    }
+   
+    #pShoes_3{
+		text-align: center;
+		color: white;
+	    width: 125px; 
+	    height: 125px; 
+	    margin-left: 895px;
+	    margin-top: -202px;
+	    background: rgb(182, 178, 179);
+	} 
+	
+    #pCom_3{
+        margin-left: 900px;
+	    margin-top: 20px;
+    }
+    
+     #pShoes_4{
+		text-align: center;
+		color: white;
+	    width: 125px; 
+	    height: 125px; 
+	    margin-left: 1060px;
+	    margin-top: -203px;
+	    background: rgb(182, 178, 179);
+	} 
+	
+    #pCom_4{
+        margin-left: 1060px;
+	    margin-top: 20px;
+    }
+    
+    #pShoes_5{
+		text-align: center;
+		color: white;
+	    width: 125px; 
+	    height: 125px; 
+	    margin-left: 1220px;
+	    margin-top: -203px;
+	    background: rgb(182, 178, 179);
+	} 
+	
+    #pCom_5{
+        margin-left: 1220px;
+	    margin-top: 20px;
+    }
+
+/*==================== 서브 메뉴바 ===============*/   
+		#subBlue{
+		text-align: center;
+		color: white;
+	    width: 190px; 
+	    height: 200px; 
+	    margin-left: 355px;
+	    margin-top: -590px;
+	    background:rgb(69, 114, 196)};
+	}
+	
+ 	 #subMenui  li { /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */
+		color: black;
+		background-color: #2d2d2d;
+	}   
+	
+	.submenuLink { /* 상위 메뉴  a 태그에 공통으로 설정할 스타일 */
+		text-decoration: none;
+		text-align: center;
+		display: block;
+		width: 200px;
+		font-size: 15px;
+		font-weight: bold;
+		text-align: left;
+		
+	}  
+	.subMenuLi { /* 상위 메뉴와 하위 메뉴의 a 태그에 공통으로 설정할 스타일 */
+		display: block;
+		width: 150px;
+		margin-left: 345px;
+	    margin-top:  10px;
+		font-size: 15px;
+		font-weight: bold;
+	} 
+	.subMenuLi:hover .submenuLink{ /* 상위 메뉴의 li에 마우스오버 되었을 때 스타일 설정 */
+		color: rgb(69, 114, 196);
+	}
+
+	#row_1{
+		width: 120px;
+		margin-left: 340px;
+	}
+	#row_2{
+		width: 120px;
+		margin-left: 340px;
+	}
+	#row_3{
+		width: 120px;
+		margin-left: 340px;
+	}
+	#row_4{
+		width: 120px;
+		margin-left: 340px;
+	}
+	.submenuLink { /* 상위 메뉴의 글씨색을 흰색으로 설정 */
+		color: black;
+	}
+/* ================== 푸터 =====================  */	
+	footer{ 
+	    position:fixed; 
+		left:0px; 
+		bottom:0px; 
+		height:80px; 
+		width:100%; 
+		background-color: rgb(5, 0, 0, 0.03); 
+		color: gray; 
+		font-size: 13px;
+	  
+	}
+	  
+	#footer{
+		color:black;
+		font-weight: bold;
+		font-size: 17px;
+	}

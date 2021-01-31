@@ -1,0 +1,133 @@
+/*중앙 */
+	article{margin:10px auto;  box-sizing:border-box;}
+	main{box-sizing:border-box; margin:auto;}
+	footer{height:100px;  margin:auto; clear:both; text-align:center; }
+	section{margin:0 auto 20px auto; box-sizing:border-box; padding:0 100px;}
+	
+/* 상품랭킹 리스트  */
+	#foot-ranking{ margin:0;}
+	#foot-ranking > ul > li {display: block; font-size:12px; font-weight:bold; padding:5px 0px;}
+	
+/* 상단 서브 메뉴(링크)  */	
+	.menu1{
+		 color: navy; text-align: center; font-weight: bold; 
+		vertical-align: middle; width: 80px; height: 50px; display: table-cell;
+	}
+	.menu2{
+		 color: navy; text-align: center; font-weight: bold; 
+		vertical-align: middle; width: 100px; height: 50px; display: table-cell;
+	}
+	.menu1:hover { font-weight:bold; cursor:pointer;}
+	
+	.menu2:hover { font-weight:bold; cursor:pointer;}
+	
+/* ================ 상단 메뉴바 ================== */
+   #highMenu_1 ul{
+   	  height: 5px;
+   	  width: 900px;
+   	  list-style-type: none;
+   }
+   
+   #highMenu_1 li{
+   	 	color: black;
+		background-color: white;
+		float: left; /* li은 원래 세로로 되어있는데 이걸 가로모양 오른쪽에 위치하게끔 바꿔주는 역할*/
+		line-height: 20px;
+		vertical-align: middle;  
+		text-align: center;
+		display: block; /* 점 제거  */
+   }
+   
+   #highMenu_2 ul{
+   	    height: 5px;
+   	    width: 900px;
+   	    list-style-type: none; 
+   }
+   
+   #highMenu_2 li{
+   	 	color: black;
+		background-color: white;
+		float: right; /* li은 원래 세로로 되어있는데 이걸 가로모양 왼쪽에 위치하게끔 바꿔주는 역할*/
+		line-height: 20px;
+		vertical-align: middle;  
+		text-align: center;
+		display: block; /* 점 제거  */
+   }
+		
+   #mainlogo{ /* 안녕하슈 로고 */
+	    margin:5px;
+	    padding: 5px;
+   }
+  
+	
+	
+	.slide{ /* <>넘기는 관련*/
+	    width: 1280px; /*body의 크기와 여기 크기가 같아야 <>위치가 이동됨. 양끝으로.*/
+	    margin: 0 auto;
+	    position: relative;
+	}
+	.slide a {
+	    position: absolute;
+	    font-size: 60px;    
+	    color: #666;
+	    line-height: 1;
+	    transform: translateY(-50%);
+	    opacity: .75;
+	}
+	.slide .larrow {    /* <의 위치*/
+	    left: 0;
+	    top: 50%;      
+	    margin-left: 5px;
+	}
+	.slide .rarrow {    /*>의 위치*/
+	    right: 0;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    margin-right: 5px;
+	}
+	.container {    /*랭킹안 전체박스*/
+    display: table;    
+    table-layout: fixed;
+    width: 100%;  /* width: 1024px; /*너비 값을 px로 고정하려면 수정하세요. */ 
+    min-width: 768px;  
+       
+}
+.container div { /*랭킹안 1위*/
+	font-size: 13px;
+    border: 1px solid #ccc;
+	height: 50px; /*박스안글자전부 아래위높이조절*/
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 0px; /*0은 아래위 간격조절 25px는 전체 왼쪽간격 */
+}
+.container div:first-child { /*랭킹안 위*/
+   	width: 20%; /*박스전부사이즈가 달라짐*/
+    text-align: left;
+    padding: 20px;/*전체박스안 패딩조절*/
+}
+
+.container div:nth-child(2) { /*10,000칸*/ 
+    width:20%;/*2,3번째 div간격이 벌어짐*/
+     text-align: left;
+    line-height: 2;
+}
+.container div:nth-child(3) {/*20,000칸*/
+	width: 20%;/*3,4번 div 간격*/
+    text-align: left;
+    line-height: 2;
+}
+.container div:nth-child(4) {/*30,000칸*/
+	width: 20%;/*3,4번 div 간격*/
+    text-align: left;
+    line-height: 2;
+}
+.container div:nth-child(5) {/*40,000칸*/
+	width: 20%;/*3,4번 div 간격*/
+    text-align: left;
+    line-height: 2;
+}
+.container div:nth-child(6) {/*50,000칸*/
+	width: 20%;/*3,4번 div 간격*/
+    text-align: left;
+    line-height: 2;
+}
